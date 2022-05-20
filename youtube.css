@@ -1,0 +1,73 @@
+*{
+    background-color: black;
+}
+.navigational img{
+    width: 7vw;
+    height: 12vh;
+    margin-top: 12px;
+    margin-left: 12px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+.navigational span{
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 25px;
+}
+.navigational img:hover{
+    width: 15vw;
+    height: 11vh;
+}
+.container1you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+.container1you img{
+    height: 6vh;
+    position: relative;
+    left: -676px;
+}
+.boxbar{
+    width: 10vw;
+    height: 73vh;
+    position: relative;
+    top: -1px;
+    background-color: black;
+    display: none;
+    z-index: 10;
+    position: relative;
+    top: -900px;
+}
+.boxbar h2{
+    color: white;
+}
+.line{
+    background: white;
+    height: 2px;
+}
+
+.contain{
+    width: 99vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.video{
+    width: 300px;
+    height: 200px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 1.5s;
+}
+.video:hover{
+    width: 340px;
+    height: 220px;
+}

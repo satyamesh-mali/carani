@@ -1,0 +1,33 @@
+.load{
+    width: 0vw;
+    height: 0.5vh;
+    background-color: red;
+    border-radius: 15px;
+    animation: loadanimation 1s;
+}
+@keyframes loadanimation {
+    from{
+        width: 0.001vw;
+    }
+    to{
+        width: 100vw;
+    }
+}
+#circle1{
+    width: 100px;
+    height: 100px;
+    /* animation: rotatingcircle 5s infinite alternate-reverse ; */
+    position: relative;
+    left: 3px;
+}
+@keyframes rotatingcircle {
+    100%{
+        transform: rotate(360deg);
+    }
+    from{
+        left: 0px;
+    }
+    to{
+        left: 1300px;
+    }
+}

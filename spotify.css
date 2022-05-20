@@ -1,0 +1,110 @@
+.navigational img{
+    width: 5vw;
+    height: 10vh;
+    margin-top: 12px;
+    margin-left: 12px;
+    transition-property: width height;
+    transition-duration: 2s;
+}
+.navigational span{
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 25px;
+}
+.navigational img:hover{
+    width: 6vw;
+    height: 12vh;
+}
+.musicContainer{
+    width: 100vw;
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(thirdback.webp);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.loader{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#range{
+    width: 60vw;
+}
+.box2{
+    width: 20vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+}
+.box2 img{
+    width: 5vw;
+    height: 8vh;
+    border-radius: 20px;
+}
+.box2 span{
+    color: black;
+    font-family: 'Quintessential', cursive;;
+    font-size: large;
+    padding-top: 12px;
+    margin-left: 39px;
+}
+.box2 i{
+    margin-left: 44px;
+    margin-top: -18px;
+    position: relative;
+    top: -8px;
+}
+#play1{
+    position: relative;
+    left: 20px;
+
+}
+#play2{
+    position: relative;
+    left: -12px;
+}
+#play3{
+    position: relative;
+    left: -12px;
+}
+.loader i{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    position: relative;
+    left: -417px;
+    bottom: -23px;
+    transition-property: width height;
+    transition-duration: 2s;
+    transition-delay: 0.3s;
+}
+.loader input{
+    background-color: red;
+}
+.loader i:hover{
+    width: 25px;
+    height: 25px;
+}
+#haha{
+    background-color: white;
+    width: 60vw;
+}

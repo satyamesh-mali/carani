@@ -1,0 +1,56 @@
+.sky{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trees{
+    background-image: url(trees.png);
+    position: relative;
+    bottom: 1384px;
+
+}
+.track{
+    width: 800vw;
+    height: 69vh;
+    position: absolute;
+    background-image: url(track.png);
+    background-repeat: no-repeat;
+    bottom: 1499px;
+    position: relative;
+    animation: trackmoving linear 6s infinite;
+}
+.body{
+    width: 21vw;
+    height: 10vw;
+    position: relative;
+    top: -1886px;
+    left: 100px;
+}
+.right{
+    position: relative;
+    left: 286px;
+    top: -2016px;
+    width: 60px;
+    animation: wheelrotation linear .6s infinite;
+}
+.car{
+    width: 100px;  
+}
+.left{
+    position: relative;
+    top: -1973px;
+    width: 49px;
+    height: 55px;
+    left: 139px;
+    animation: wheelrotation linear .6s infinite;
+}
+@keyframes wheelrotation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes trackmoving {
+    100%{
+        transform: translateX(-400vw);
+    }
+}
